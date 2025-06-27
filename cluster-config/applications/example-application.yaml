@@ -10,5 +10,4 @@ spec:
   sourceRef:
     kind: GitRepository
     name: applications
-  validation: client
-  targetNamespace: default  # ✅ Added this line
+  targetNamespace: default
