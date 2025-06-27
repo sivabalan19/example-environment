@@ -14,7 +14,7 @@ spec:
         app: example-application
     spec:
       containers:
-      - image: sivabalan19/example-application:v4
+      - image: vbsiva/example-application:v6
         name: example-application
         ports:
         - containerPort: 8080
