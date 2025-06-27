@@ -11,3 +11,4 @@ spec:
     kind: GitRepository
     name: applications
   validation: client
+  targetNamespace: default  # ✅ Added this line
