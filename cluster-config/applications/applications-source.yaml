@@ -5,7 +5,7 @@ metadata:
   name: applications
   namespace: default
 spec:
-  interval: 30s
+  interval: 3s
   ref:
     branch: main
   url: ssh://git@github.com/sivabalan19/example-environment
