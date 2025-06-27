@@ -14,7 +14,7 @@ spec:
         app: example-application
     spec:
       containers:
-      - image: sivabalan19/example-application:v2
+      - image: sivabalan19/example-application:v3
         name: example-application
         ports:
         - containerPort: 8080
