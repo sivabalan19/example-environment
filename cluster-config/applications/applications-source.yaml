@@ -1,5 +1,5 @@
 ---
-apiVersion: source.toolkit.fluxcd.io/v1beta1
+apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: applications
@@ -8,5 +8,4 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: ssh://git@github.com/gitops-tech/example-environment
-
+  url: ssh://git@github.com/sivabalan19/example-environment
